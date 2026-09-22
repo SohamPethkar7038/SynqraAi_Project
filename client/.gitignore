@@ -1,0 +1,74 @@
+
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# Any environment file
+*.env
+
+# Secrets / private keys
+*.pem
+*.key
+*.crt
+secrets.json
+
+
+# ==========================================
+# BUILD FILES
+# ==========================================
+
+dist/
+build/
+out/
+
+# React / Vite
+.vite/
+vite.svg
+
+# Next/Nuxt (if accidentally used)
+.next/
+.nuxt/
+.svelte-kit/
+
+
+# ==========================================
+# CACHE
+# ==========================================
+
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.nyc_output/
+coverage/
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
