@@ -1,5 +1,4 @@
 import logo from "./logo.svg";
-import gradientBackground from "./gradientBackground.png";
 import user_group from "./user_group.png";
 import star_icon from "./star_icon.svg";
 import star_dull_icon from "./star_dull_icon.svg";
@@ -12,7 +11,6 @@ import ai_gen_img_3 from "./ai_gen_img_3.png";
 
 export const assets = {
     logo,
-    gradientBackground,
     user_group,
     star_icon,
     star_dull_icon,
@@ -26,7 +24,7 @@ export const AiToolsData = [
         description: 'Generate high-quality, engaging articles on any topic with our AI writing technology.',
         Icon: SquarePen,
         bg: { from: '#3588F2', to: '#0BB0D7' },
-        path: '/ai/write-article'
+        path: '/ai/write-articles'
     },
     {
         title: 'Blog Title Generator',
@@ -56,13 +54,7 @@ export const AiToolsData = [
         bg: { from: '#5C6AF1', to: '#427DF5' },
         path: '/ai/remove-object'
     },
-    {
-        title: 'Resume Reviewer',
-        description: 'Get your resume reviewed by AI to improve your chances of landing your dream job.',
-        Icon: FileText,
-        bg: { from: '#12B7AC', to: '#08B6CE' },
-        path: '/ai/review-resume'
-    }
+    
 ]
 
 export const dummyTestimonialData = [
