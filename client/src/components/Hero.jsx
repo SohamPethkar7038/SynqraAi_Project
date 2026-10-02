@@ -11,7 +11,7 @@ export const Hero = () => {
 
     return (
        
-        <div className='relative w-full min-h-[85vh] sm:min-h-[90vh] flex flex-col items-center justify-center px-4 sm:px-8 lg:px-16 xl:px-20 pt-36 sm:pt-32 pb-12 bg-[url(/gradientBackground.png)] bg-cover bg-center bg-no-repeat'>
+        <div className='relative w-full flex flex-col items-center justify-center px-4 sm:px-8 lg:px-16 xl:px-20 pt-36 sm:pt-40 pb-10 bg-[url(/gradientBackground.png)] bg-cover bg-center bg-no-repeat'>
 
             {/* Main Content Container */}
             <div className='text-center max-w-4xl mx-auto flex flex-col items-center'>
